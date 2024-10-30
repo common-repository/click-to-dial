@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+}
+.wp-block-create-block-click-to-dial-button{
+    &.ctd-desktop-only {
+        display: inline-flex
+    }
+    &.ctd-tablet-only {
+      display: inline-flex
+    }
+    &.ctd-mobile-only {
+      display: inline-flex
+    }
+    &.ctd-mobile-tablet-only {
+      display: inline-flex
+    }
+}
